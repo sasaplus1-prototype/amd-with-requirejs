@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8">
+  <title>AMD with RequireJS</title>
+  <script data-main="index.js" src="require.js"></script>
+</head>
+<body>
+  <ul>
+    <!-- ko foreach: items -->
+    <li>
+      <pre data-bind="text: result"></pre>
+    </li>
+    <!-- /ko -->
+  </ul>
+</body>
+</html>
